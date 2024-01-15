@@ -11,7 +11,12 @@ const AboutUs = () => (
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant"> About Us</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
+        <img
+          src={images.spoon}
+          alt="about_spoon"
+          className="spoon__img "
+          style={{transform: "scaleX(-1)"}}
+        />
         <p className="p__opensans">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
@@ -25,7 +30,7 @@ const AboutUs = () => (
         {" "}
         <img src={images.knife} alt="knife" />
       </div>
-      <div className="app__aboutus-content_history flex__center">
+      <div className="app__aboutus-content_history ">
         <h1 className="headtext__cormorant"> Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
