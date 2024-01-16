@@ -27,11 +27,11 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
+        <a href="#" className="p__opensans">
           Log In / Register
         </a>
         <div />
-        <a href="/" className="p__opensans">
+        <a href="#" className="p__opensans">
           Book Table
         </a>
       </div>

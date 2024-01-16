@@ -3,7 +3,7 @@ import images from "../../constants/images";
 import {SubHeading} from "../../components";
 
 const FindUs = () => (
-  <div className="app__bg app__wrapper section__padding ">
+  <div className="app__bg app__wrapper section__padding " id="contact">
     <div className="app__wrapper_info" style={{paddingLeft: "2rem"}}>
       <SubHeading title="Contact" />
       <h1 className="headtext__cormorant">Find Us</h1>
